@@ -6,17 +6,39 @@ namespace PZ_05_Git_With_Branches
     {
         public static void Main(string[] args)
         {
-            //Завдання 1
+            //Завдання 2
 
-            int[] numbers = new int[50];
+            Random generator = new Random();
 
-            int a = 0;
+            int ammount = 0;
+
+            int[] numbers = new int[25];
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                a += 2;
-                numbers[i] = a;
-                Console.WriteLine($"Element: {a}");
+                numbers[i] = generator.Next(0, 100);
+
+                if (numbers[i] % 2 == 0)
+                {
+                    ammount++;
+                }
+            }
+
+            Console.WriteLine($"Arrays include {ammount} pair numbers.");
+
+            Console.Write("It's: ");
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                    Console.Write(numbers[i]);
+                if (i == numbers.Length - 1)
+                {
+                    Console.Write("."); //"." in the end
+                    break;
+                }
+                if (numbers[i] % 2 == 0)
+                    Console.Write(", "); //"," between numbers
             }
         }
     }
