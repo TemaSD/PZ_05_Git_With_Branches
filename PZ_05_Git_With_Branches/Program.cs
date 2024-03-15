@@ -6,18 +6,13 @@ namespace PZ_05_Git_With_Branches
     {
         public static void Main(string[] args)
         {
-            //Завдання 1
+            //Завдання 3
 
-            int[] numbers = new int[50];
+            Console.Write("Write text: ");
 
-            int a = 0;
+            String dataInput = Console.ReadLine();
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                a += 2;
-                numbers[i] = a;
-                Console.WriteLine($"Element: {a}");
-            }
+            Console.WriteLine($"Text \"{dataInput}\" include {dataInput.Length} symbols.");
         }
     }
 }
