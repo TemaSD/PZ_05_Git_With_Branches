@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{A23D2483-3338-4E26-B66D-9609D1F3B46A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PZ_05_Git_With_Branches/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../PZ_4_4_ASCII/PZ_4_4_ASCII/Program.cs">
     <Files>
-      <File FileName="PZ_05_Git_With_Branches/Program.cs" Line="10" Column="1" />
+      <File FileName="PZ_05_Git_With_Branches/Program.cs" Line="19" Column="52" />
+      <File FileName="../PZ_4_4_ASCII/PZ_4_4_ASCII/Program.cs" Line="19" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

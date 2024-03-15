@@ -6,17 +6,19 @@ namespace PZ_05_Git_With_Branches
     {
         public static void Main(string[] args)
         {
-            //Завдання 1
+            //Завдання 4
 
-            int[] numbers = new int[50];
+            int asciiCode = 97;
 
-            int a = 0;
+            char[] sheet = new char[26];
 
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < sheet.Length; i++)
             {
-                a += 2;
-                numbers[i] = a;
-                Console.WriteLine($"Element: {a}");
+                sheet[i] = (char)asciiCode;
+
+                Console.WriteLine($"{sheet[i]} - {asciiCode}");
+
+                asciiCode++;
             }
         }
     }
