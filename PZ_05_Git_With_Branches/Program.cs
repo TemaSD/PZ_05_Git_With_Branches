@@ -6,18 +6,32 @@ namespace PZ_05_Git_With_Branches
     {
         public static void Main(string[] args)
         {
-            //Завдання 1
+            //Завдання 3.1 ускладнене
 
-            int[] numbers = new int[50];
+            Console.Write("Write text: ");
 
-            int a = 0;
+            String dataInput = Console.ReadLine();
 
-            for (int i = 0; i < numbers.Length; i++)
+            Console.Write("What symbol do you want to find? ");
+
+            char charInput = Char.Parse(Console.ReadLine());
+
+            int counter = 0;
+
+            foreach (char simbol in dataInput)
             {
-                a += 2;
-                numbers[i] = a;
-                Console.WriteLine($"Element: {a}");
+                if (simbol == charInput)
+                {
+                    counter++;
+                }
             }
+
+            Console.WriteLine($"Text \"{dataInput}\" include {dataInput.Length} symbols.");
+
+            if (counter > 0)
+                Console.WriteLine($"Your symbol \"{charInput}\" appears in the text {counter} times!");
+            else
+                Console.WriteLine($"There's no symbol \"{charInput}\" in your text.");
         }
     }
 }
