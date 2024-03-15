@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_05_Git_With_Branches", "PZ_05_Git_With_Branches\PZ_05_Git_With_Branches.csproj", "{A23D2483-3338-4E26-B66D-9609D1F3B46A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A23D2483-3338-4E26-B66D-9609D1F3B46A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A23D2483-3338-4E26-B66D-9609D1F3B46A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A23D2483-3338-4E26-B66D-9609D1F3B46A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A23D2483-3338-4E26-B66D-9609D1F3B46A}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72DB556E-6908-4C2B-9C50-BE75680D4E22}
+	EndGlobalSection
+EndGlobal

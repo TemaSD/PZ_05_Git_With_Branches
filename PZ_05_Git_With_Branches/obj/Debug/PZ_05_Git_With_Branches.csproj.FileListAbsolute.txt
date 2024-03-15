@@ -1,0 +1,6 @@
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/bin/Debug/PZ_05_Git_With_Branches.exe
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/bin/Debug/PZ_05_Git_With_Branches.pdb
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/obj/Debug/PZ_05_Git_With_Branches.csproj.AssemblyReference.cache
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/obj/Debug/PZ_05_Git_With_Branches.csproj.CoreCompileInputs.cache
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/obj/Debug/PZ_05_Git_With_Branches.exe
+/Users/artem/GameDev/PZ_05_Git_With_Branches/PZ_05_Git_With_Branches/obj/Debug/PZ_05_Git_With_Branches.pdb
